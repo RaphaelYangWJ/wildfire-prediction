@@ -1,4 +1,4 @@
-# Wildfire Image Processing using Deep Learning
+# Global Wildfire Prediction using Convolutional Deep Neural Networks
 
 ## Project Overview
 This repository contains two machine learning projects aimed at processing and analyzing wildfire images to forecast and understand wildfire dynamics. The projects leverage climate data, image processing, and deep neural networks, implemented in PyTorch.
