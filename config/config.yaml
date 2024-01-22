@@ -1,0 +1,27 @@
+save_dir: ../trained_model/
+
+
+data_engineer:
+  data_path: ../dataset/
+  year_len: 10
+  conv_method: max
+
+
+model:
+  seed: 3407
+  activation: Tanh
+  dropout_value: 0.1
+
+
+trainer:
+  batch_size: 20000
+  split_ratio: 0.8
+  learning_rate: 0.00015
+  epochs: 300
+
+
+evaluation:
+  folder_no: 0
+
+attribution:
+  folder_no: 0
