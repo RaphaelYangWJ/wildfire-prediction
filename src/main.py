@@ -2,7 +2,7 @@ import os
 import logging
 import omegaconf
 from trainer import Trainer
-from data_engineering import Data_Engineering
+from gcn_engineering import Data_Engineering
 
 
 
@@ -14,7 +14,7 @@ class main_pipeline(object):
         self.config = config
         # Create save directory
         existing_models = len(os.listdir(self.config.save_dir))
-        self.save_dir = self.config.save_dir + "trained_result_" + str(existing_models)
+        self.save_dir = self.config.save_dir + "Train-Result-" + str(existing_models)
         os.makedirs(self.save_dir)
         self.save_dir += "/"
 
