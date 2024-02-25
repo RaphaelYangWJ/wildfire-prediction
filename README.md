@@ -1,19 +1,18 @@
-# 🔥Global Wildfire Prediction using Convolutional Deep Neural Networks
+# 🔥Global Wildfire Forecasting: An Integration of Graph Convolutional Network and Convolution Block Attention Module
 
 ## Project Overview
-This repository contains two machine learning projects aimed at processing and analyzing wildfire images to forecast and understand wildfire dynamics. The projects leverage climate data, image processing, and deep neural networks, implemented in PyTorch.
+This repository contains codes, datasets and models for wildfire predictions.
 
 ## Key Features
 - **Data Transformation**: Conversion of climate data (NC4 format) into 3D matrices incorporating temporal and geospatial information.
 - **Image Processing**: Transformation of matrix data into RGB image arrays, highlighting burnt regions.
-- **Feature Extraction**: Identification and extraction of 13 key features related to wildfire prediction.
-- **Convolution Techniques**: Use of convolution and pooling to enhance feature representation.
+- **Graph Convolutional Network**: Implemented GCN to increase the receptive field of the model
 - **Neural Network Modeling**: Development of DNN and CNN models with advanced techniques to improve accuracy.
-- Model Attribution Analysis: Parse the network at neuron level to analyze the network.
+- Model Attribution Analysis: Parse the network at the neuron level to analyze the network.
 
 ## Prerequisites
 
-List any prerequisites, libraries, OS version, etc., needed before installing your project.
+List any prerequisites, libraries, OS versions, etc., needed before installing your project.
 
 ```
 numpy == 1.26.1
@@ -50,7 +49,7 @@ The repository is organized into two main folders:
    5. `/notebooks/Notebook - Attribution Analysis.py`: Jupyter Notebook for Attribution Analysis
 
 3. `/config`: Set your configurations and parameters for training pipeline, evaluation and attribution analysis
-4. `/dataset`: dataset processed is saved here.
+4. `/dataset`: The dataset processed is saved here.
 5. `/raw_dataset`: Raw dataset is saved here.
 6. `/trained_model`: Training Pipeline running result will be automatically saved here sequentially.
 
