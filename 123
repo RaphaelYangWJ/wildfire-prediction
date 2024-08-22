@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>X-Pay Client Due Dilligence</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@2/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+    
+    <link rel="stylesheet" href="CSS/bulma-1.0.1/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+	  <link rel="stylesheet" href="/resources/demos/style.css">
+	  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+	  <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+	  <script>
+	  $( function() {
+	    $( "#datepicker" ).datepicker();
+	  } );
+	  </script>
+	  <script>
+	  $( function() {
+	    $( "#datepicker2" ).datepicker();
+	  } );
+	  </script>
+
+	  <script>
+	  $( function() {
+	    $( "#datepicker3" ).datepicker();
+	  } );
+	  </script>
+
+
+  </head>
+
+  <body>
+    <div class="container" id="navbar-container">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://bulma.io">
+            <img src="https://bulma.io/assets/brand/Bulma%20Logo.svg" width="112" height="28" />
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start"></div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <a class="navbar-item" href="index.html">Home</a>
+              <a class="navbar-item" href="fruits.html">Due Dilligence</a>
+              <a class="navbar-item" href="services.html">Post Monitoring</a>
+
+              <a class="navbar-item" href="contact.html">Process</a>
+              <div class="buttons">
+                <a class="button is-info">
+                  <strong>Contact Us</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="has-text-centered pb-6">
+          <h1 class="subtitle is-1">X-Pay Client Due Dilligence Online Application Portal</h1>
+          <h2 class="subtitle is-2">X-Pay 企业客户专项尽职调查在线申请系统</h2>
+          <h3 class="subtitle">
+            Please complete below required fields and submit to compute the X-Pay client classification result.
+          </h3>
+        </div>
+        
+        <!-- 销售信息 -->
+        <div class="box has-background-white">
+					<div class="columns">
+				  <div class="column">
+
+
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Requestor 申请人</label>
+							<div class="control">
+						  <p class="control has-icons-left">
+						    <input class="input is-info" type="email" placeholder="请输入申请人姓名">
+						    <span class="icon is-small is-left">
+						      <i class="fas fa-user"></i>
+						    </span>
+						  </p>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Sales 销售</label>
+							<div class="control">
+						  <p class="control has-icons-left">
+						    <input class="input is-info" type="email" placeholder="请输入销售姓名">
+						    <span class="icon is-small is-left">
+						      <i class="fas fa-user"></i>
+						    </span>
+						  </p>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+					
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Business Approver 业务部门审批人</label>
+							<div class="control">
+						  <p class="control has-icons-left">
+						    <input class="input is-info" type="email" placeholder="请输入审批人姓名">
+						    <span class="icon is-small is-left">
+						      <i class="fas fa-user"></i>
+						    </span>
+						  </p>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  </div>
+				  
+				  <div class="column">
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Requestor Email 申请人邮箱</label>
+						<div class="control has-icons-left">
+						    <input class="input is-info" type="email" placeholder="XXXXX@jpmrogan.com">
+						    <span class="icon is-small is-left">
+						      <i class="fas fa-envelope"></i>
+						    </span>
+
+						  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Sales Email 销售邮箱</label>
+						<div class="control has-icons-left">
+						    <input class="input is-info" type="email" placeholder="XXXXX@jpmrogan.com">
+						    <span class="icon is-small is-left">
+						      <i class="fas fa-envelope"></i>
+						    </span>
+
+						  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Business Approver Email 业务部门审批人邮箱</label>
+						<div class="control has-icons-left">
+						    <input class="input is-info" type="email" placeholder="XXXXX@jpmrogan.com">
+						    <span class="icon is-small is-left">
+						      <i class="fas fa-envelope"></i>
+						    </span>
+
+						  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  </div>
+				  
+				  <div class="column">
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Requestor SID 申请人ID</label>
+							<div class="control">
+						  <p class="control has-icons-left">
+						    <input class="input is-info" type="email" placeholder="请输入申请人SID">
+						    <span class="icon is-small is-left">
+						      <i class="fas fa-user"></i>
+						    </span>
+						  </p>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Sales SID 申请人ID</label>
+							<div class="control">
+						  <p class="control has-icons-left">
+						    <input class="input is-info" type="email" placeholder="请输入销售SID">
+						    <span class="icon is-small is-left">
+						      <i class="fas fa-user"></i>
+						    </span>
+						  </p>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Business Approver SID 业务部门审批人ID</label>
+							<div class="control">
+						  <p class="control has-icons-left">
+						    <input class="input is-info" type="email" placeholder="请输入业务部门审批人SID">
+						    <span class="icon is-small is-left">
+						      <i class="fas fa-user"></i>
+						    </span>
+						  </p>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+					
+				  </div>
+					</div>
+				</div>
+        <!-- end -->
+        
+        <!-- 维度1 -->
+			 	<div class="box has-background-info-30">
+					<h3 class="subtitle is-3 has-text-white">Dimension A: Client Feature & Basic Information</h3>
+					<h4 class="subtitle is-4 has-text-white">维度 A： 客户特征 与 基础信息</h4>
+				</div>
+        
+        <div class="box has-background-white">
+					<div class="columns">
+				  <div class="column">
+				  	
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Entity Name 客户名称</label>
+					  <div class="control">
+					    <input class="input" type="text" placeholder="请输入营业执照上的客户名称">
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Date of Establishment 成立日期</label>
+					  <div class="control">
+					  	<input type="text" id="datepicker" class="input" placeholder="DD/MM/YYYY">
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Name of Business Contact Person 业务联系人姓名</label>
+					  <div class="control has-icons-left">
+							<input class="input" type="text" placeholder="请输入业务联系人姓名" />
+					    <span class="icon is-small is-left">
+					      <i class="fas fa-user"></i>
+					    </span>
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+					<!--field-->
+			  	<div class="field">
+					  <label class="label">Registered & Paid-in Capital 注册与实缴资本</label>
+					  <div class="control">
+					 <div class="columns">
+				  <div class="column">
+						<input class="input" type="text" placeholder="请输入注册资本（RMB）" /></div>
+						<div class="column">
+					<input class="input" type="text" placeholder="请输入实缴资本（RMB）" /></div></div>
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Registered address 注册地址</label>
+					  <div class="control has-icons-left">
+							<input class="input" type="text" placeholder="请输入营业执照上的注册地址" />
+					    <span class="icon is-small is-left">
+					      <i class="fas fa-home"></i>
+					    </span>
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Corporate Management 企业内部管理情况</label>
+							<div class="control">
+							<div>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    能通过系统实现跨境交易留痕管理和准确记录，资金流和货物流/信息流的一一匹配
+						  </label>
+							</div>
+							<div>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    能通过非系统实现跨境交易留痕管理和准确记录，资金流和货物流/信息流的一一匹配
+						  </label></div>
+						  <div>
+						  	<label class="radio">
+						    <input type="radio" name="rsvp" />
+						    不同实现跨境交易留痕管理和准确记录，资金流和货物流/信息流的一一匹配
+						    </label>
+						  </div>
+						</div>
+						<p class="text has-text-danger-40">* 若选择前两项，请在下方说明其匹配流程并上传截图作为支持文件</p>
+					  <div class="control">
+							<textarea class="textarea" placeholder="请输入流程解释说明"></textarea>
+					  </div>
+						<div class="file has-name is-fullwidth">
+						  <label class="file-label">
+						    <input class="file-input" type="file" name="resume" />
+						    <span class="file-cta">
+						      <span class="file-icon">
+						        <i class="fas fa-upload"></i>
+						      </span>
+						      <span class="file-label"> Choose a file… </span>
+						    </span>
+						    <span class="file-name"> 请上传客户系统截图证明 </span>
+						  </label>
+						</div>
+						
+					  <p class="help is-success">This username is available</p>
+					</div>
+			  <!--field-->
+					<div class="field">
+					  <label class="label">Business Scope 经营范围</label>
+					  <div class="control">
+							<textarea class="textarea" placeholder="请输入营业执照上的经营范围"></textarea>
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+					
+					
+				  </div>
+				  
+				  
+				  <div class="column">
+				  <!--field-->
+			  	<div class="field">
+					  <label class="label">Unified social credit code 统一社会信用代码</label>
+					  <div class="control">
+					    <input class="input" type="text" placeholder="请输入营业执照上的18位统一社会信用代码">
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+					<!--field-->
+			  	<div class="field">
+			  	<label class="label">Country/Region & Industry 国家地区 & 所属行业</label>
+				  <div class="control">
+						<div class="field has-addons">
+						  <p class="control has-icons-left">
+						    <span class="select is-fullwidth">
+						      <select>
+						      	<option>请下拉菜单选择国家/地区</option>
+										<option>阿富汗 Afghanistan</option>
+										<option>奥兰群岛 AlandIslands</option>
+										<option>阿尔巴尼亚 Albania</option>
+										<option>阿尔及利亚 Algeria</option>
+										<option>美属萨摩亚 American Samoa</option>
+										<option>安道尔 Andorra</option>
+										<option>安哥拉 Angola</option>
+										<option>安圭拉 Anguilla</option>
+										<option>南极洲 Antarctica</option>
+										<option>安提瓜和巴布达 Antiguaand Barbuda</option>
+										<option>阿根廷 Argentina</option>
+										<option>亚美尼亚 Armenia</option>
+										<option>阿鲁巴 Aruba</option>
+										<option>澳大利亚 Australia</option>
+										<option>奥地利 Austria</option>
+										<option>阿塞拜疆 Azerbaijan</option>
+										<option>巴哈马 Bahamas</option>
+										<option>巴林 Bahrain</option>
+										<option>孟加拉国 Bangladesh</option>
+										<option>巴巴多斯 Barbados</option>
+										<option>白俄罗斯 Belarus</option>
+										<option>比利时 Belgium</option>
+										<option>伯利兹 Belize</option>
+										<option>贝宁 Benin</option>
+										<option>百慕大 Bermuda</option>
+										<option>不丹 Bhutan</option>
+										<option>玻利维亚 Bolivia</option>
+										<option>波黑 Bosniaand Herzegovina</option>
+										<option>博茨瓦纳 Botswana</option>
+										<option>布维岛 BouvetIsland</option>
+										<option>巴西 Brazil</option>
+										<option>英属印度洋领地 British Indian Ocean Territory</option>
+										<option>文莱 Brunei Darussalam</option>
+										<option>保加利亚 Bulgaria</option>
+										<option>布基纳法索 Burkina Faso</option>
+										<option>布隆迪 Burundi</option>
+										<option>柬埔寨 Cambodia</option>
+										<option>喀麦隆 Cameroon</option>
+										<option>加拿大 Canada</option>
+										<option>佛得角 CapeVerde</option>
+										<option>开曼群岛 Cayman Islands</option>
+										<option>中非 Central African Republic</option>
+										<option>乍得 Chad</option>
+										<option>智利 Chile</option>
+										<option>中国 China</option>
+										<option>圣诞岛 ChristmasIsland</option>
+										<option>科科斯（基林）群岛 Cocos  (Keeling) Islands</option>
+										<option>哥伦比亚 Colombia</option>
+										<option>科摩罗 Comoros</option>
+										<option>刚果（布） Congo</option>
+										<option>刚果（金） Congo (the Democratic Republic of the)</option>
+										<option>库克群岛 CookIslands  (the)</option>
+										<option>哥斯达黎加 CostaRica</option>
+										<option>科特迪瓦 Côted'Ivoire</option>
+										<option>克罗地亚 Croatia</option>
+										<option>古巴 Cuba</option>
+										<option>塞浦路斯 Cyprus</option>
+										<option>捷克 Czech Republic  (the)</option>
+										<option>丹麦 Denmark</option>
+										<option>吉布提 Djibouti</option>
+										<option>多米尼克 Dominica</option>
+										<option>多米尼加 Dominican Republic  (the)</option>
+										<option>厄瓜多尔 Ecuador</option>
+										<option>埃及 Egypt</option>
+										<option>萨尔瓦多 ElSalvador</option>
+										<option>赤道几内亚 EquatorialGuinea</option>
+										<option>厄立特里亚 Eritrea</option>
+										<option>爱沙尼亚 Estonia</option>
+										<option>埃塞俄比亚 Ethiopia</option>
+										<option>福克兰群岛（马尔维纳斯） Falkland Islands  (the)[Malvinas]</option>
+										<option>法罗群岛 Faroe Islands (the)</option>
+										<option>斐济 Fiji</option>
+										<option>芬兰 Finland</option>
+										<option>法国 France</option>
+										<option>法属圭亚那 French Guiana</option>
+										<option>法属波利尼西亚 French Polynesia</option>
+										<option>法属南部领地 French Southern Territories (the)</option>
+										<option>加蓬 Gabon</option>
+										<option>冈比亚 Gambia (The)</option>
+										<option>格鲁吉亚 Georgia</option>
+										<option>德国 Germany</option>
+										<option>加纳 Ghana</option>
+										<option>直布罗陀 Gibraltar</option>
+										<option>希腊 Greece</option>
+										<option>格陵兰 Greenland</option>
+										<option>格林纳达 Grenada</option>
+										<option>瓜德罗普 Guadeloupe</option>
+										<option>关岛 Guam</option>
+										<option>危地马拉 Guatemala</option>
+										<option>格恩西岛 Guernsey</option>
+										<option>几内亚 Guinea</option>
+										<option>几内亚比绍 Guinea-Bissau</option>
+										<option>圭亚那 Guyana</option>
+										<option>海地 Haiti</option>
+										<option>赫德岛和麦克唐纳岛 Heard Islandand McDonald Islands</option>
+										<option>梵蒂冈 Holy See (the)[VaticanCityState]</option>
+										<option>洪都拉斯 Honduras</option>
+										<option>香港 HongKong</option>
+										<option>匈牙利 Hungary</option>
+										<option>冰岛 Iceland</option>
+										<option>印度 India</option>
+										<option>印度尼西亚 Indonesia</option>
+										<option>伊朗 Iran  (the Islamic Republic of)</option>
+										<option>伊拉克 Iraq</option>
+										<option>爱尔兰 Ireland</option>
+										<option>英国属地曼岛 IsleofMan</option>
+										<option>以色列 Israel</option>
+										<option>意大利 Italy</option>
+										<option>牙买加 Jamaica</option>
+										<option>日本 Japan</option>
+										<option>泽西岛 Jersey</option>
+										<option>约旦 Jordan</option>
+										<option>哈萨克斯坦 Kazakhstan</option>
+										<option>肯尼亚 Kenya</option>
+										<option>基里巴斯 Kiribati</option>
+										<option>朝鲜 Korea  (the Democratic People's Republic of)</option>
+										<option>韩国 Korea  (the Republic of)</option>
+										<option>科威特 Kuwait</option>
+										<option>吉尔吉斯斯坦 Kyrgyzstan</option>
+										<option>老挝 Lao People's Democratic Republic  (the)</option>
+										<option>拉脱维亚 Latvia</option>
+										<option>黎巴嫩 Lebanon</option>
+										<option>莱索托 Lesotho</option>
+										<option>利比里亚 Liberia</option>
+										<option>利比亚 Libyan Arab Jamahiriya  (the)</option>
+										<option>列支敦士登 Liechtenstein</option>
+										<option>立陶宛 Lithuania</option>
+										<option>卢森堡 Luxembourg</option>
+										<option>澳门 Macao</option>
+										<option>前南马其顿 Macedonia  (the former Yugoslav Republic of)</option>
+										<option>马达加斯加 Madagascar</option>
+										<option>马拉维 Malawi</option>
+										<option>马来西亚 Malaysia</option>
+										<option>马尔代夫 Maldives</option>
+										<option>马里 Mali</option>
+										<option>马耳他 Malta</option>
+										<option>马绍尔群岛 Marshall Islands (the)</option>
+										<option>马提尼克 Martinique</option>
+										<option>毛里塔尼亚 Mauritania</option>
+										<option>毛里求斯 Mauritius</option>
+										<option>马约特 Mayotte</option>
+										<option>墨西哥 Mexico</option>
+										<option>密克罗尼西亚联邦 Micronesia  (the Federated States of)</option>
+										<option>摩尔多瓦 Moldova  (the Republic of)</option>
+										<option>摩纳哥 Monaco</option>
+										<option>蒙古 Mongolia</option>
+										<option>黑山 Montenegro</option>
+										<option>蒙特塞拉特 Montserrat</option>
+										<option>摩洛哥 Morocco</option>
+										<option>莫桑比克 Mozambique</option>
+										<option>缅甸 Myanmar</option>
+										<option>纳米比亚 Namibia</option>
+										<option>瑙鲁 Nauru</option>
+										<option>尼泊尔 Nepal</option>
+										<option>荷兰 Netherlands (the)</option>
+										<option>荷属安的列斯 Netherlands Antilles (the)</option>
+										<option>新喀里多尼亚 NewCaledonia</option>
+										<option>新西兰 NewZealand</option>
+										<option>尼加拉瓜 Nicaragua</option>
+										<option>尼日尔 Niger (the)</option>
+										<option>尼日利亚 Nigeria</option>
+										<option>纽埃 Niue</option>
+										<option>诺福克岛 Norfolk Island</option>
+										<option>北马里亚纳 Northern Mariana Islands (the)</option>
+										<option>挪威 Norway</option>
+										<option>阿曼 Oman</option>
+										<option>巴基斯坦 Pakistan</option>
+										<option>帕劳 Palau</option>
+										<option>巴勒斯坦 Palestinian Territory  (the Occupied)</option>
+										<option>巴拿马 Panama</option>
+										<option>巴布亚新几内亚 Papua New Guinea</option>
+										<option>巴拉圭 Paraguay</option>
+										<option>秘鲁 Peru</option>
+										<option>菲律宾 Philippines (the)</option>
+										<option>皮特凯恩 Pitcairn</option>
+										<option>波兰 Poland</option>
+										<option>葡萄牙 Portugal</option>
+										<option>波多黎各 PuertoRico</option>
+										<option>卡塔尔 Qatar</option>
+										<option>留尼汪 Réunion</option>
+										<option>罗马尼亚 Romania</option>
+										<option>俄罗斯联邦 Russian Federation (the)</option>
+										<option>卢旺达 Rwanda</option>
+										<option>圣赫勒拿 Saint Helena</option>
+										<option>圣基茨和尼维斯 Saint Kitts and Nevis</option>
+										<option>圣卢西亚 Saint Lucia</option>
+										<option>圣皮埃尔和密克隆 Saint Pierre and Miquelon</option>
+										<option>圣文森特和格林纳丁斯 Saint Vincent and the Grenadines</option>
+										<option>萨摩亚 Samoa</option>
+										<option>圣马力诺 San Marino</option>
+										<option>圣多美和普林西比 Sao Tome and Principe</option>
+										<option>沙特阿拉伯 Saudi Arabia</option>
+										<option>塞内加尔 Senegal</option>
+										<option>塞尔维亚 Serbia</option>
+										<option>塞舌尔 Seychelles</option>
+										<option>塞拉利昂 SierraLeone</option>
+										<option>新加坡 Singapore</option>
+										<option>斯洛伐克 Slovakia</option>
+										<option>斯洛文尼亚 Slovenia</option>
+										<option>所罗门群岛 Solomon Islands (the)</option>
+										<option>索马里 Somalia</option>
+										<option>南非 South Africa</option>
+										<option>南乔治亚岛和南桑德韦奇岛 South Georgia and the South Sandwich Islands</option>
+										<option>西班牙 Spain</option>
+										<option>斯里兰卡 SriLanka</option>
+										<option>苏丹 Sudan (the)</option>
+										<option>苏里南 Suriname</option>
+										<option>斯瓦尔巴岛和扬马延岛 SvalbardandJanMayen</option>
+										<option>斯威士兰 Swaziland</option>
+										<option>瑞典 Sweden</option>
+										<option>瑞士 Switzerland</option>
+										<option>叙利亚 Syrian Arab Republic (the)</option>
+										<option>台湾 Taiwan (Province of China)</option>
+										<option>塔吉克斯坦 Tajikistan</option>
+										<option>坦桑尼亚 Tanzania, United Republic of</option>
+										<option>泰国 Thailand</option>
+										<option>东帝汶 Timor-Leste</option>
+										<option>多哥 Togo</option>
+										<option>托克劳 Tokelau</option>
+										<option>汤加 Tonga</option>
+										<option>特立尼达和多巴哥 Trinidad and Tobago</option>
+										<option>突尼斯 Tunisia</option>
+										<option>土耳其 Türkiye</option>
+										<option>土库曼斯坦 Turkmenistan</option>
+										<option>特克斯和凯科斯群岛 Turks and Caicos Islands  (the)</option>
+										<option>图瓦卢 Tuvalu</option>
+										<option>乌干达 Uganda</option>
+										<option>乌克兰 Ukraine</option>
+										<option>阿联酋 United Arab Emirates  (the)</option>
+										<option>英国 United Kingdom (the)</option>
+										<option>美国 United States (the)</option>
+										<option>美国本土外小岛屿 United States Minor Outlying Islands (the)</option>
+										<option>乌拉圭 Uruguay</option>
+										<option>乌兹别克斯坦 Uzbekistan</option>
+										<option>瓦努阿图 Vanuatu</option>
+										<option>委内瑞拉 Venezuela</option>
+										<option>越南 VietNam</option>
+										<option>英属维尔京群岛 Virgin Islands (British)</option>
+										<option>美属维尔京群岛 Virgin Islands (U.S.)</option>
+										<option>瓦利斯和富图纳 Wallis and Futuna</option>
+										<option>西撒哈拉 Western Sahara</option>
+										<option>也门 Yemen</option>
+										<option>赞比亚 Zambia</option>
+										<option>津巴布韦 Zimbabwe</option>
+						      </select>
+						    </span>
+						        <span class="icon is-small is-left">
+			      <i class="fas fa-globe"></i>
+			    </span>
+						  </p>
+						  <p class="control is-expanded">
+						    <span class="select is-fullwidth">
+						      <select>
+						      	<option>请下拉选择所属行业</option>
+						        <option>A：农、林、牧、渔业</option>
+						        <option>B：采矿业</option>
+						        <option>C：制造业</option>
+						        <option>D：电力、燃气及水的生产供应业</option>
+						        <option>E：建筑业</option>
+						        <option>F：交通运输、仓储和邮政业</option>
+						        <option>G：信息传输、计算机服务及软件业</option>
+						        <option>H：批发和零售业</option>
+						        <option>I：住宿和餐饮业</option>
+						        <option>J：金融业</option>
+						        <option>K：房地产业</option>
+						        <option>L：租赁和商务服务业</option>
+						        <option>M：科学研究、技术服务和地质勘查业</option>
+						        <option>N：水利、环境和公共设施管理</option>
+						        <option>O：居民服务和其他服务业</option>
+						        <option>P：教育业</option>
+						        <option>Q：卫生、社会保障和社会服务业</option>
+						        <option>R：文化、教育和娱乐业</option>
+						        <option>S：公共管理和社会组织</option>
+						        <option>T：国际组织</option>
+						      </select>
+						    </span>
+						  </p>
+						</div>
+				  </div>
+			  	<p class="help is-success">This username is available</p>
+					</div>
+					<!--field-->
+					<div class="field">
+					  <label class="label">ID Number of Business Contact Person 业务联系人证件号码</label>
+					  <div class="control">
+							<div class="field has-addons">
+							  <p class="control">
+							    <span class="select">
+							      <select>
+							        <option>身份证</option>
+							        <option>护照</option>
+							        <option>港澳居民来往内地通行证</option>
+							        <option>台湾居民来往大陆通行证</option>
+							      </select>
+							    </span>
+							  </p>
+							  <p class="control is-expanded is-success">
+							    <input class="input" type="text" placeholder="请输入证件号码">
+							  </p>
+							</div>
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+			  	<div class="field">
+					  <label class="label">Number of insured employees 参保员工人数</label>
+					  <div class="control has-icons-left">
+							<input class="input" type="text" placeholder="请输入参保员工人数（整数）" />
+					    <span class="icon is-small is-left">
+					      <i class="fas fa-user"></i>
+					    </span>
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Operating address 营业地址</label>
+					  <div class="control has-icons-left">
+							<input class="input" type="text" placeholder="请输入企业实际经营地址" />
+					    <span class="icon is-small is-left">
+					      <i class="fas fa-home"></i>
+					    </span>
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Due diligence/reviews Response Period 尽职调查/审查客户反馈时间</label>
+							<div class="control">
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    <10天
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    10天-1个月
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    1个月-2个月
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    2个月以上
+						  </label>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Shareholder Name & Registered Capital 股东名称及对应注册资金</label>
+						<div class="field is-horizontal">
+						  <div class="field-label is-normal">
+						    <label class="label">股东名称</label>
+						  </div>
+						  <div class="field-body">
+						    <div class="field">
+								  <div class="control">
+										<textarea class="textarea" placeholder="请输入对应股东名称并使用 '|' 隔开"></textarea>
+								  </div>
+						    </div>
+						  </div>
+						</div>
+						<div class="field is-horizontal">
+						  <div class="field-label is-normal">
+						    <label class="label">注册资金</label>
+						  </div>
+						  <div class="field-body">
+						    <div class="field">
+								  <div class="control">
+										<textarea class="textarea" placeholder="请输入对应注册资金（人民币）并使用 '|' 隔开"></textarea>
+								  </div>
+						    </div>
+						  </div>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  </div>
+					</div>
+				</div>
+				<!-- end -->
+        
+        <!-- 维度2 -->
+			 	<div class="box has-background-info-30">
+					<h3 class="subtitle is-3 has-text-white">Dimension B: Buseinss Feature & Corss-border Busienss</h3>
+					<h4 class="subtitle is-4 has-text-white">维度 B： 业务特征 与 跨境业务办理情况</h4>
+				</div>
+        
+        <div class="box has-background-white">
+					<div class="columns">
+				  <div class="column">
+				  	
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Date of client's first FX business (not with JPM) 客户首次办理外汇业务的时间（非本行）</label>
+					  <div class="control">
+					  	<input type="text" id="datepicker2" class="input" placeholder="DD/MM/YYYY">
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Cross-Border Payment Volume Volatility in past 1 year 最近一年跨境交易的波动率</label> 
+						<div class="control">
+					    <input class="input" type="text" placeholder="请输入波动率数字（浮点数）">
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+					<!--field-->
+			  	<div class="field">
+					  <label class="label">Source & Usage of FX funding 外汇资金来源与用途</label>
+					  <div class="control">
+					 <div class="columns">
+				  <div class="column">
+						<input class="input" type="text" placeholder="请输入外汇资金来源" /></div>
+						<div class="column">
+					<input class="input" type="text" placeholder="请输入外汇资金用途" /></div></div>
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Major cross-border type 主要跨境贸易类型 (请选择所有适用项目）</label>
+							<div class="control">
+							<label class="checkbox">
+							  <input type="checkbox" />
+							  货物贸易 Goods Trade 
+							</label>
+							<label class="checkbox">
+							  <input type="checkbox" />
+							  服务贸易 Service Trade 
+							</label>
+							<label class="checkbox">
+							  <input type="checkbox" />
+							  资本项目 Capital Items 
+							</label>		
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Major payment methods 主要跨境交易结算方式</label>
+							<div class="control">
+								<div>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    信用证 Letter of Credit
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    电汇 T/T
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    托收 Collection
+						  </label></div>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    开放账户 Open Account
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    汇票 Promissory Note
+						  </label>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Prepayment Period 预付货款周期</label>
+					<div class="control">
+					    <input class="input" type="text" placeholder="请输入预付货款周期（天数）">
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+					<!--field-->
+			  	<div class="field">
+					  <label class="label">Cross-border Scale & Sales Revenue 近一年跨境交易规模与年营业收入</label>
+					  <div class="control">
+					 <div class="columns">
+				  <div class="column">
+						<input class="input" type="text" placeholder="请输入近一年跨境交易总金额（人民币）" /></div>
+						<div class="column">
+					<input class="input" type="text" placeholder="请输入近一年营业收入总金额（人民币）" /></div></div>
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  </div>
+				  
+				  
+				  <div class="column">
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Date of client's first FX business with JPM 客户与摩根大通银行首次办理外汇业务的时间</label>
+					  <div class="control">
+					  	<input type="text" id="datepicker3" class="input" placeholder="DD/MM/YYYY">
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+					<!--field-->
+			  	<div class="field">
+			  	<label class="label">Major export/import goods 主要进出口产品</label>
+				  <div class="control">
+						  <p class="control has-icons-left">
+						    <span class="select is-fullwidth">
+						      <select>
+						      	<option>企业进口商品不包含电解铜，镍豆或电子元件等产品</option>
+										<option>企业进口商品以电解铜、镍豆或电子元件等产品为主</option>
+						      </select>
+						    </span>
+						        <span class="icon is-small is-left">
+			      <i class="fas fa-globe"></i>
+			    </span>
+						  </p>
+				  </div>
+			  	<p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Operating address 营业地址</label>
+					  <div class="control has-icons-left">
+							<input class="input" type="text" placeholder="请输入企业实际经营地址" />
+					    <span class="icon is-small is-left">
+					      <i class="fas fa-home"></i>
+					    </span>
+					  </div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Mode of business & Custom Declaration 业务办理与报关模式</label>
+							<div class="control">
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    异地业务且异地报关
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    仅异地业务
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    仅异地报关
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    非异地业务与异地报关
+						  </label>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Counterparty Name & Countries 交易对手名称与所在国家地区</label>
+						<div class="field is-horizontal">
+						  <div class="field-label is-normal">
+						    <label class="label">对手方名称</label>
+						  </div>
+						  <div class="field-body">
+						    <div class="field">
+									 <div class="control">
+										<textarea class="textarea" placeholder="请输入对手方名称并使用 '|' 隔开"></textarea>
+								  </div>
+						    </div>
+						  </div>
+						</div>
+						<div class="field is-horizontal">
+						  <div class="field-label is-normal">
+						    <label class="label">国家地区</label>
+						  </div>
+						  <div class="field-body">
+						    <div class="field">
+									 <div class="control">
+										<textarea class="textarea" placeholder="请输入国家地区名称并使用 '|' 隔开"></textarea>
+								  </div>
+						    </div>
+						  </div>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+					
+				  </div>
+					</div>
+				</div>
+        <!-- end -->
+        
+        <!-- 维度3 -->
+			 	<div class="box has-background-info-30">
+					<h3 class="subtitle is-3 has-text-white">Dimension C: Rating Information</h3>
+					<h4 class="subtitle is-4 has-text-white">维度 C： 评级信息</h4>
+				</div>
+        
+        <div class="box has-background-white">
+					<div class="columns">
+				  <div class="column">
+
+
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Money Laundering Rating 洗钱风险等级</label>
+							<div class="control">
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    低 Low
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    中 Medium
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    高 High
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    非常高 Very high
+						  </label>
+						</div>
+						<div class="file is-small has-name">
+						  <label class="file-label">
+						    <input class="file-input" type="file" name="resume" />
+						    <span class="file-cta">
+						      <span class="file-icon">
+						        <i class="fas fa-upload"></i>
+						      </span>
+						      <span class="file-label"> Choose a file… </span>
+						    </span>
+						    <span class="file-name"> 请上传KYC报告 </span>
+						  </label>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Custom Rating 海关评级</label>
+							<div class="control">
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    注册企业
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    海关高级认证企业/专精特新/高新技术企业
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    非注册企业
+						  </label>
+						</div>
+						<div class="file is-small has-name">
+						  <label class="file-label">
+						    <input class="file-input" type="file" name="resume" />
+						    <span class="file-cta">
+						      <span class="file-icon">
+						        <i class="fas fa-upload"></i>
+						      </span>
+						      <span class="file-label"> Choose a file… </span>
+						    </span>
+						    <span class="file-name"> 请上传海关评级截图 </span>
+						  </label>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+					<!--field-->
+					<div class="field">
+					  <label class="label">Tax Rating 税务评级</label>
+							<div class="control">
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    A类企业
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    非A类企业
+						  </label>
+						</div>
+						<div class="file is-small has-name">
+						  <label class="file-label">
+						    <input class="file-input" type="file" name="resume" />
+						    <span class="file-cta">
+						      <span class="file-icon">
+						        <i class="fas fa-upload"></i>
+						      </span>
+						      <span class="file-label"> Choose a file… </span>
+						    </span>
+						    <span class="file-name"> 请上传税务评级截图 </span>
+						  </label>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>	
+				  </div>
+				  
+				  
+				  <div class="column">
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Credit Rating 授信风险等级</label>
+							<div class="control">
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    无授信业务
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    CR1
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    CR2
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    CR3
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    CR4
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    CR5
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    CR6
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    CR7
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    CR8
+						  </label>
+						</div>
+						<div class="file is-small has-name">
+						  <label class="file-label">
+						    <input class="file-input" type="file" name="resume" />
+						    <span class="file-cta">
+						      <span class="file-icon">
+						        <i class="fas fa-upload"></i>
+						      </span>
+						      <span class="file-label"> Choose a file… </span>
+						    </span>
+						    <span class="file-name"> 请上传授信等级截图 </span>
+						  </label>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">FX risk transaction monitoring 外汇风险交易监测情况</label>
+							<div class="control">
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    首次上线 Initial Onboard
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    有风险事件 Risk event
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    无风险事件 No risk event
+						  </label>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>	
+
+				  </div>
+					</div>
+				</div>
+        <!-- end -->
+        
+        <!-- 维度4 -->
+			 	<div class="box has-background-info-30">
+					<h3 class="subtitle is-3 has-text-white">Dimension D: Regulatory Information</h3>
+					<h4 class="subtitle is-4 has-text-white">维度 D： 监管信息</h4>
+				</div>
+        
+        <div class="box has-background-white">
+					<div class="columns">
+				  <div class="column">
+
+
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Goods Trade Corporate Classification 货物贸易企业名录分类</label>
+							<div class="control">
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    A类
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    非A类（包括B类，C类等）
+						  </label>
+						</div>
+						<div class="file is-small has-name">
+						  <label class="file-label">
+						    <input class="file-input" type="file" name="resume" />
+						    <span class="file-cta">
+						      <span class="file-icon">
+						        <i class="fas fa-upload"></i>
+						      </span>
+						      <span class="file-label"> Choose a file… </span>
+						    </span>
+						    <span class="file-name"> 请上传名录分类截图 </span>
+						  </label>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Cross-border RMB key supervision list 跨境人民币业务重点监管名单信息</label>
+							<div class="control">
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    不在监管名单内
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    在监管名单内
+						  </label>
+						</div>
+						<div class="file is-small has-name">
+						  <label class="file-label">
+						    <input class="file-input" type="file" name="resume" />
+						    <span class="file-cta">
+						      <span class="file-icon">
+						        <i class="fas fa-upload"></i>
+						      </span>
+						      <span class="file-label"> Choose a file… </span>
+						    </span>
+						    <span class="file-name"> 请上传名单查询截图 </span>
+						  </label>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  </div>
+				  
+				  
+				  <div class="column">
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Capital items business control status 资本项目业务管控状态</label>
+							<div class="control">
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    无管控
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    管控中
+						  </label>
+						</div>
+						<div class="file is-small has-name">
+						  <label class="file-label">
+						    <input class="file-input" type="file" name="resume" />
+						    <span class="file-cta">
+						      <span class="file-icon">
+						        <i class="fas fa-upload"></i>
+						      </span>
+						      <span class="file-label"> Choose a file… </span>
+						    </span>
+						    <span class="file-name"> 请上传查询截图 </span>
+						  </label>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>
+				  <!--field-->
+					<div class="field">
+					  <label class="label">Administration penalties 近一年内被人民银行、外汇局、海关、税务等监管部门实施过行政处罚或采取过行政措施的情况</label>
+							<div class="control">
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    无处罚记录
+						  </label>
+						  <label class="radio">
+						    <input type="radio" name="rsvp" />
+						    有处罚记录
+						  </label>
+						</div>
+						<div class="file is-small has-name">
+						  <label class="file-label">
+						    <input class="file-input" type="file" name="resume" />
+						    <span class="file-cta">
+						      <span class="file-icon">
+						        <i class="fas fa-upload"></i>
+						      </span>
+						      <span class="file-label"> Choose a file… </span>
+						    </span>
+						    <span class="file-name"> 请上传查询截图 </span>
+						  </label>
+						</div>
+					  <p class="help is-success">This username is available</p>
+					</div>	
+				  </div>
+					</div>
+				</div>
+        <!-- end -->
+        
+		<div class="notification has-text-centered has-background-white">
+			<button class="button is-primary is-focused">Submit for Pre-screening</button>   
+			<button class="button is-danger is-focused">Exit this Page</button>
+		</div>
+        
+        
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h1 class="title is-1 is-white-text-title has-text-centered">VERY TASTY FRUITS</h1>
+    </section>
+  </body>
+</html>
